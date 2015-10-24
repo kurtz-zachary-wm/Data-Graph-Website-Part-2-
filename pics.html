@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(0, 2, 55)">
+<link rel="stylesheet" type="text/css" href="styleSheet2.css">
+<script src="jquery-2.1.4.min.js"></script>
+<script src="scripts2.js"></script>
+<head>
+</head>
+<body>
+<div id="header">
+    <h1>NFL</h1>
+</div>
+<div id="nav">
+    <button style="height: 25px; width: 100px"> Home </button>
+    <button style="height: 25px; width: 100px"><a href="index.html"> Stats </a></button>
+    <button style="height: 25px; width: 100px"><a href="index2.html"> Injuries </a></button>
+    <button style="height: 25px; width: 100px"><a href="index3.html"> News </a></button>
+</div>
+<script src="scripts2.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#pic1").click(function() {
+            console.log('asdf');
+            $("#pic1").fadeOut("slow", function(){
+                $('#pic1').attr('src', 'http://storage.torontosun.com/v1/dynamic_resize/sws_path/suns-prod-images/1297590953705_ORIGINAL.jpg?quality=80&size=650x');
+                $('#pic1').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic2").click(function() {
+            console.log('asdf');
+            $("#pic2").fadeOut("slow", function(){
+                $('#pic2').attr('src', 'http://cdn.fansided.com/wp-content/blogs.dir/229/files/2015/10/trenton-robinson-devonta-freeman-nfl-washington-redskins-atlanta-falcons-850x560.jpg');
+                $('#pic2').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic3").click(function() {
+            console.log('asdf');
+            $("#pic3").fadeOut("slow", function(){
+                $('#pic3').attr('src', 'http://prod.static.falcons.clubs.nfl.com/assets/images/imported/ATL/photos/clubimages/2015/01-January/temp150109_JulioJones_BestOf2014_EA_018--nfl_mezz_1280_1024.jpg');
+                $('#pic3').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic4").click(function() {
+            console.log('asdf');
+            $("#pic4").fadeOut("slow", function(){
+                $('#pic4').attr('src', 'http://prod.images.49ers.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/49ERS/assets/images/imported/SF/photos/clubimages/2015/09-September/temp_00125_DAL_49ERS_15--nfl_mezz_1280_1024.JPG?width=620&height=465');
+                $('#pic4').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic5").click(function() {
+            console.log('asdf');
+            $("#pic5").fadeOut("slow", function(){
+                $('#pic5').attr('src', 'https://tribisc.files.wordpress.com/2015/01/chandler-jones.jpg?w=500');
+                $('#pic5').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic6").click(function() {
+            console.log('asdf');
+            $("#pic6").fadeOut("slow", function(){
+                $('#pic6').attr('src', 'http://img.bleacherreport.net/img/images/photos/003/251/774/747d605dd875de7491713286c1d09173_crop_north.jpg?w=630&h=420&q=75');
+                $('#pic6').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic7").click(function() {
+            console.log('asdf');
+            $("#pic7").fadeOut("slow", function(){
+                $('#pic7').attr('src', 'http://blogstorage.s3.amazonaws.com/upload/SportsBlogcom/79276/0537053001413300426_filepicker.png');
+                $('#pic7').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic8").click(function() {
+            console.log('asdf');
+            $("#pic8").fadeOut("slow", function(){
+                $('#pic8').attr('src', 'http://media.balls.ie/uploads/2013/09/Brian-Hoyer-failed-pass.gif');
+                $('#pic8').fadeIn('slow');
+            });
+        })
+    });
+    $(document).ready(function(){
+        $("#pic9").click(function() {
+            console.log('asdf');
+            $("#pic9").fadeOut("slow", function(){
+                $('#pic9').attr('src', 'http://www.supertalk.fm/wp-content/uploads/2015/09/735656.0.nfl3_featured.png');
+                $('#pic9').fadeIn('slow');
+            });
+        })
+    });
+
+</script>
+<div id="section">
+    <table border="1px">
+    <tr>
+    <td><img src="https://usatq.files.wordpress.com/2014/11/philip-rivers-week-13.jpg" height="200px" width="250px" id="pic1">
+
+        <p id="p1">
+            Passing Yard Leaders (Top 5)
+        </p>
+        <button style="height: 25px; width: 100px" onclick="changeDescription('p1')">Click me!</button>
+    </td>
+    <td><img src="http://sportsnaut.com/wp-content/uploads/2015/04/Matt-Forte-SN-810x554.jpg" height="200px" width="250px" id="pic2">
+
+    <p id="p2">
+        Rushing Yard Leaders (Top 5)
+    </p>
+        <button style="height: 25px; width: 100px" onclick="changeDescription2('p2')">Click me!</button>
+    </td>
+    <td><img src="http://static.nfl.com/static/content/public/pg-photo/2015/06/01/0ap3000000494995/wide-receiver-deandre-hopkins-houston-texans_pg_600.jpg" height="200px" width="250px" id="pic3">
+    <p id="p3">
+        Receiving Yard Leaders (Top 5)
+    </p>
+        <button style="height: 25px; width: 100px" onclick="changeDescription3('p3')">Click me!</button>
+    </td>
+</tr>
+    <tr>
+        <td><img src="http://cdn.fansided.com/wp-content/blogs.dir/47/files/2015/02/d-3-850x560.jpg" height="200px" width="250px" id="pic4">
+        <p id="p4">
+            Tackle Leaders (Top 5)
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription4('p4')">Click me!</button>
+        </td>
+        <td><img src="http://sports.cbsimg.net/images/blogs/dunlap-dance-640x400.jpg" height="200px" width="250px" id="pic5">
+        <p id="p5">
+            Sacks Leaders (Top 5)
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription5('p5')">Click me!</button>
+        </td>
+        <td><img src="https://www.fanduel.com/insider/wp-content/uploads/2015/09/AP_326761707956-1024x690.jpg" height="200px" width="250px" id="pic6">
+        <p id="p6">
+            Interception Leaders (Top 5)
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription6('p6')">Click me!</button>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="http://prod.static.patriots.clubs.nfl.com//assets/images/articles/photos-for-articles/500x305-injury-report-final.jpg" height="200px" width="250px" id="pic7">
+        <p id="p7">
+            Injury Report
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription7('p7')">Click me!</button>
+        </td>
+        <td><img src="http://www.dailyfantasysource.com/wp-content/uploads/2013/07/NFL-News-430x244.jpg" height="200px" width="250px" id="pic8">
+        <p id="p8">
+            News Around The League
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription8('p8')">Click me!</button>
+        </td>
+        <td><img src="http://static.nfl.com/static/content/public/image/contact-us/contact-us-cp.jpg" height="200px" width="250px" id="pic9">
+        <p id="p9">
+            NFL's Offical website
+        </p>
+            <button style="height: 25px; width: 100px" onclick="changeDescription9('p9')">Click me!</button>
+        </td>
+    </tr>
+</table>
+</div>
+
+<div id="footer">
+    Copyright &copy; Zachary Kurtz
+</div>
+</body>
+</html>
